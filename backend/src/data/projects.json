@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Impact of Quantitative Easing on Emerging Markets",
+    "description": "An empirical analysis of how major central bank policies affect capital flows and exchange rates in developing economies.",
+    "date": "2024-03-15",
+    "category": "Macroeconomics"
+  },
+  {
+    "id": 2,
+    "title": "Carbon Pricing and Industrial Competitiveness",
+    "description": "Investigating the long-term effects of carbon taxes on manufacturing output and innovation in the EU.",
+    "date": "2023-11-20",
+    "category": "Environmental Economics"
+  },
+  {
+    "id": 3,
+    "title": "Digital Currency Adoption in Rural Areas",
+    "description": "A field study on the behavioral barriers to adopting mobile banking and digital currencies in remote agricultural communities.",
+    "date": "2024-01-10",
+    "category": "Development Economics"
+  }
+]

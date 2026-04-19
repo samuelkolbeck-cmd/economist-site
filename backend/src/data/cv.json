@@ -1,0 +1,101 @@
+{
+  "profile": {
+    "name": "Samuel Kolbeck",
+    "title": "M.Sc. Economics Candidate",
+    "location": "Vienna, Austria",
+    "summary": "Driven M.Sc. Economics candidate (Univ. Wien, Nova SBE) with practical experience in M&A, Consulting, FinTech, and Business Development. Proven analytical skills in quantitative analysis, econometric modeling, market research, and due diligence."
+  },
+  "education": [
+    {
+      "institution": "University of Vienna",
+      "location": "Vienna, Austria",
+      "degree": "M.Sc. in Applied Economics",
+      "period": "Since 09/2024",
+      "details": "Focus: Applied Microeconomics, Applied Macroeconomics, Econometrics, Financial History. (Current Grade: 1.2)"
+    },
+    {
+      "institution": "Nova School of Business and Economics",
+      "location": "Lisbon, Portugal",
+      "degree": "Exchange Semester, Economics (Erasmus)",
+      "period": "08/2025 – 01/2026",
+      "details": "Courses: Behavioral Economics, Competition Policy, Financial Statement Analysis, History of Economic Analysis, Development Economics."
+    },
+    {
+      "institution": "University of Bayreuth",
+      "location": "Bayreuth, Germany",
+      "degree": "B.Sc. in Economics",
+      "period": "10/2019 – 05/2023",
+      "details": "Bachelor Thesis: 'Climate variability and population size: An econometric analysis'. Grade: 2.0. Focus: Development Economics, Public Finance, International Trade, Institutional Economics."
+    },
+    {
+      "institution": "Universidad de Lima",
+      "location": "Lima, Peru",
+      "degree": "Exchange Semester, Economics & Business Science",
+      "period": "08/2021 – 12/2021",
+      "details": "International experience in business and economics."
+    }
+  ],
+  "experience": [
+    {
+      "company": "JENTIS (SaaS Data Compliance)",
+      "location": "Vienna, Austria",
+      "role": "Business Development Representative (Part-time)",
+      "period": "04/2025 – 02/2026",
+      "tasks": [
+        "Strategic analysis of DACH and UK markets to identify B2B target customers for data compliance solutions.",
+        "Conducting technical discovery calls to determine customer-specific requirements in Data Compliance (GDPR) and Server-Side Tracking.",
+        "Evaluation of technical maturity for lead qualification and supporting the sales team in structuring complex SaaS deals."
+      ]
+    },
+    {
+      "company": "BearingPoint (Management & Technology Consulting)",
+      "location": "Munich, Germany",
+      "role": "Intern, M&A Deal Advisory",
+      "period": "06/2024 – 09/2024",
+      "tasks": [
+        "Support in Technology and Operational Due Diligence through the creation of insightful analyses for customer presentations.",
+        "Assistance in creating an Investment Memorandum for a sell-side capital increase; preparation of factsheets for customer meetings.",
+        "Conducting target screenings and analyses of potential buyers (Target-Search) for buy- and sell-side M&A projects.",
+        "Involved in business valuations by compiling and analyzing balance sheets, P&L statements, and transaction comps."
+      ]
+    },
+    {
+      "company": "BearingPoint (Management & Technology Consulting)",
+      "location": "Munich, Germany",
+      "role": "Intern, Finance & Risk",
+      "period": "02/2024 – 05/2024",
+      "tasks": [
+        "Support of the PMO in a finance transformation project for a DAX-40 company, involved in project/budget planning, forecasting, and cost monitoring.",
+        "Building expertise in SAP FI/CO modules, support in documenting as-is processes and migration tests.",
+        "Collaboration in the research group 'Gen AI in Real Estate', conducting market analyses and developing use cases."
+      ]
+    },
+    {
+      "company": "RIDE Capital (FinTech Platform for Asset Structuring)",
+      "location": "Berlin, Germany",
+      "role": "Junior Operations Manager (Part-time)",
+      "period": "06/2022 – 03/2023",
+      "tasks": [
+        "Controlling operational workflows for GmbHs in compliance with German tax regulations.",
+        "Optimization of internal processes to reduce processing times for customer onboarding and portfolio setup.",
+        "Close cooperation with tax advisors, tax offices, and customers; technical support for interface problems."
+      ]
+    },
+    {
+      "company": "RIDE Capital (FinTech Platform for Asset Structuring)",
+      "location": "Berlin, Germany",
+      "role": "Intern, Operations",
+      "period": "03/2022 – 05/2022",
+      "tasks": [
+        "Ensuring smooth operational processes and cross-functional support in Marketing and HR.",
+        "Leading the internal Academy, a weekly internal training with a focus on Economics and Trading."
+      ]
+    }
+  ],
+  "skills": {
+    "econometrics": "R & Stata (Regression analysis, Panel data, Time series), Python (Data automation), SQL",
+    "business_tools": "Excel (Financial modeling, DCF, ROIC & Profitability), PowerPoint, HubSpot, LaTeX",
+    "languages": "German (Native), English (Fluent - C1/C2, TOEFL 109), Spanish (Conversational - A2), French (Basic - A1/A2)",
+    "interests": "Mountaineering, Chess, Economic History, Skiing, Rowing, Cooking, Motorcycling"
+  }
+}
