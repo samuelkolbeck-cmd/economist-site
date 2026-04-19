@@ -210,8 +210,11 @@ function App() {
       </div>
 
       <footer>
-        <p>&copy; {new Date().getFullYear()} {cvData.profile.name} Portfolio.</p>
-        <span className="legal-link" onClick={() => setShowLegal(true)}>Legal Notice / Impressum</span>
+        <p>&copy; {new Date().getFullYear()} {cvData.profile.name} — Professional Portfolio.</p>
+        <div className="footer-nav">
+          <span className="legal-link" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Back to Top</span>
+          <span className="legal-link" onClick={() => setShowLegal(true)}>Legal Notice / Impressum</span>
+        </div>
       </footer>
 
       {showLegal && (
