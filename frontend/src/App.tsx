@@ -42,7 +42,6 @@ function App() {
   const [cvData, setCvData] = useState<CVData | null>(null);
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [formStatus, setFormStatus] = useState<string | null>(null);
-  const [showLegal, setShowLegal] = useState(false);
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -207,30 +206,21 @@ function App() {
             {formStatus && <p style={{ marginTop: '1rem', textAlign: 'center', fontWeight: '600', color: 'var(--accent)' }}>{formStatus}</p>}
           </form>
         </section>
+
+        <section id="legal" style={{ marginTop: '6rem', paddingTop: '2rem', borderTop: '1px solid var(--border)', opacity: 0.8 }}>
+          <h2 style={{ fontSize: '1.25rem', marginBottom: '1.5rem' }}>Legal Notice / Impressum</h2>
+          <div className="modal-body">
+            <p><strong>Name:</strong> {cvData.legal.impressum.name}</p>
+            <p><strong>Address:</strong> {cvData.legal.impressum.address}</p>
+            <p><strong>Contact:</strong> {cvData.legal.impressum.contact}</p>
+            <p style={{ fontSize: '0.8rem', marginTop: '1rem' }}>{cvData.legal.impressum.disclaimer}</p>
+          </div>
+        </section>
       </div>
 
       <footer>
-        <p>&copy; {new Date().getFullYear()} {cvData.profile.name} — Professional Portfolio.</p>
-        <div className="footer-nav">
-          <span className="legal-link" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Back to Top</span>
-          <span className="legal-link" onClick={() => setShowLegal(true)}>Legal Notice / Impressum</span>
-        </div>
+        <p>&copy; {new Date().getFullYear()} {cvData.profile.name}</p>
       </footer>
-
-      {showLegal && (
-        <div className="modal-overlay" onClick={() => setShowLegal(false)}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <span className="modal-close" onClick={() => setShowLegal(false)}>&times;</span>
-            <h2>Legal Notice</h2>
-            <div className="modal-body">
-              <p><strong>Name:</strong> {cvData.legal.impressum.name}</p>
-              <p><strong>Address:</strong> {cvData.legal.impressum.address}</p>
-              <p><strong>Contact:</strong> {cvData.legal.impressum.contact}</p>
-              <p><strong>Disclaimer:</strong> {cvData.legal.impressum.disclaimer}</p>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 }
