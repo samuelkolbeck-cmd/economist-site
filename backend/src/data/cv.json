@@ -97,5 +97,13 @@
     "business_tools": "Excel (Financial modeling, DCF, ROIC & Profitability), PowerPoint, HubSpot, LaTeX",
     "languages": "German (Native), English (Fluent - C1/C2, TOEFL 109), Spanish (Conversational - A2), French (Basic - A1/A2)",
     "interests": "Mountaineering, Chess, Economic History, Skiing, Rowing, Cooking, Motorcycling"
+  },
+  "legal": {
+    "impressum": {
+      "name": "Samuel Kolbeck",
+      "address": "Vienna, Austria",
+      "contact": "Email: samuel.kolbeck@icloud.com | Phone: +49 176 45600657",
+      "disclaimer": "The contents of our pages were created with great care. However, we cannot guarantee the accuracy, completeness, or topicality of the content. As a service provider, we are responsible for our own content on these pages according to the general laws."
+    }
   }
 }

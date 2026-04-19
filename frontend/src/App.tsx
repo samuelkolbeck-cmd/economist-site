@@ -27,6 +27,14 @@ interface CVData {
     languages: string;
     interests: string;
   };
+  legal: {
+    impressum: {
+      name: string;
+      address: string;
+      contact: string;
+      disclaimer: string;
+    };
+  };
 }
 
 function App() {
@@ -34,6 +42,7 @@ function App() {
   const [cvData, setCvData] = useState<CVData | null>(null);
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [formStatus, setFormStatus] = useState<string | null>(null);
+  const [showLegal, setShowLegal] = useState(false);
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -201,8 +210,24 @@ function App() {
       </div>
 
       <footer>
-        &copy; {new Date().getFullYear()} {cvData.profile.name} Portfolio. Built for Professional Impact.
+        <p>&copy; {new Date().getFullYear()} {cvData.profile.name} Portfolio.</p>
+        <span className="legal-link" onClick={() => setShowLegal(true)}>Legal Notice / Impressum</span>
       </footer>
+
+      {showLegal && (
+        <div className="modal-overlay" onClick={() => setShowLegal(false)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <span className="modal-close" onClick={() => setShowLegal(false)}>&times;</span>
+            <h2>Legal Notice</h2>
+            <div className="modal-body">
+              <p><strong>Name:</strong> {cvData.legal.impressum.name}</p>
+              <p><strong>Address:</strong> {cvData.legal.impressum.address}</p>
+              <p><strong>Contact:</strong> {cvData.legal.impressum.contact}</p>
+              <p><strong>Disclaimer:</strong> {cvData.legal.impressum.disclaimer}</p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
