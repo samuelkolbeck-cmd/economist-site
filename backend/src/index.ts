@@ -37,7 +37,7 @@ app.get('/api/cv', (req: Request, res: Response) => {
 
 // The "catchall" handler: for any request that doesn't
 // match one above, send back React's index.html file.
-app.get('(.*)', (req: Request, res: Response) => {
+app.use((req: Request, res: Response) => {
   res.sendFile(path.join(frontendPath, 'index.html'));
 });
 
